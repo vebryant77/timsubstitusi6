@@ -1,0 +1,115 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+
+}
+.kelas1 {
+    width: 1100px;
+    margin: auto;
+    position : relative;
+}
+
+.name a {
+    font-size: 50px;
+    font-weight:bolder;
+    float:left;
+    font-family: Courier ;
+    color:#FF4C29 ;
+}
+
+.menu {
+    font-size: 20px;
+    font-weight: lighter;
+    float: right;
+    position:sticky;
+    font-family: sans-serif;
+    float: right;
+    color: #A7FF83;
+    
+}
+
+nav {
+    width: 100px;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: underline;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    float:left;
+    display: flex;   
+
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.kotak1 {
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    position:absolute;
+}
+
+.kotak2 {
+    width: 1000px;
+    height: 50px;
+    Position: absolute;
+    background-color: white;
+}
+
+.kotak3 {
+    Width: 1350px;
+    height: 5px;
+    position: absolute;
+    background-color: #22577A;
+    margin-top: 50px;
+}
+
+.kotak4 {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 0px 8px 0px 8px;
+}
+
+.kotak5 {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 0px 100px 0px 100px;  
+}
